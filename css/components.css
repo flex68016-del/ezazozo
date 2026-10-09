@@ -227,37 +227,7 @@ body.lang-changing {
   }
 
   .main-nav {
-    position: fixed;
-    top: 70px;
-    left: 0;
-    right: 0;
-    background-color: var(--color-blanc);
-    padding: var(--space-4);
-    display: block;
-    z-index: 9999;
-    box-shadow: var(--shadow-md);
-  }
-
-  .main-nav ul {
-    flex-direction: row;
-    gap: var(--space-4);
-    overflow-x: auto;
-    padding-bottom: var(--space-2);
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .main-nav ul::-webkit-scrollbar {
-    height: 4px;
-  }
-
-  .main-nav ul::-webkit-scrollbar-thumb {
-    background: var(--color-orange);
-    border-radius: var(--radius-full);
-  }
-
-  .main-nav a {
-    font-size: var(--text-sm);
-    white-space: nowrap;
+    display: none;
   }
 }
 
@@ -266,19 +236,6 @@ body.lang-changing {
     height: 60px;
     padding: var(--space-3) var(--space-4);
     z-index: 10000;
-  }
-
-  .main-nav {
-    top: 60px;
-    z-index: 9999;
-  }
-
-  .main-nav ul {
-    gap: var(--space-3);
-  }
-
-  .main-nav a {
-    font-size: var(--text-xs);
   }
 
   .site-header .logo svg {
