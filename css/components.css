@@ -310,7 +310,7 @@ body.lang-changing {
   right: var(--space-6);
   width: 56px;
   height: 56px;
-  background-color: var(--color-orange);
+  background-color: #25D366;
   border-radius: var(--radius-full);
   display: flex;
   align-items: center;
