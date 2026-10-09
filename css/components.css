@@ -79,7 +79,7 @@
   justify-content: space-between;
   background-color: var(--color-blanc);
   backdrop-filter: blur(10px);
-  z-index: var(--z-fixed);
+  z-index: 10000;
   transition: transform var(--duration-base) var(--ease-out);
   height: 70px;
 }
@@ -223,6 +223,7 @@ body.lang-changing {
 @media (max-width: 1023px) {
   .site-header {
     height: 70px;
+    z-index: 10000;
   }
 
   .main-nav {
@@ -264,6 +265,7 @@ body.lang-changing {
   .site-header {
     height: 60px;
     padding: var(--space-3) var(--space-4);
+    z-index: 10000;
   }
 
   .main-nav {
