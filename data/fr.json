@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Eza Zozo - Poisson Braisé"
+  },
+  "skipLink": "Aller au contenu principal",
+  "header": {
+    "logoAria": "Eza Zozo - Retour à l'accueil",
+    "logoSvgAria": "Eza Zozo",
+    "navAria": "Navigation principale",
+    "langSwitchAria": "Choix de langue",
+    "frAria": "Français",
+    "enAria": "Anglais",
+    "cartAria": "Panier",
+    "mobileMenuAria": "Menu mobile"
+  },
+  "nav": {
+    "home": "Accueil",
+    "story": "Notre Histoire",
+    "signature": "Plat Signature",
+    "menu": "Menu",
+    "gallery": "Galerie",
+    "team": "Équipe",
+    "reservation": "Réservation",
+    "infos": "Infos Pratiques"
+  },
+  "hero": {
+    "title": "Poisson Braisé",
+    "subtitle": "Saveurs du Togo",
+    "viewMenu": "Voir le menu",
+    "orderWhatsapp": "Commander sur WhatsApp"
+  },
+  "histoire": {
+    "title": "Notre Histoire",
+    "text1": "Né d'une passion pour la cuisine togolaise authentique, Eza Zozo est bien plus qu'un simple restaurant. C'est une invitation à découvrir les saveurs de notre terroir, transmises de génération en génération.",
+    "text2": "Chaque plat que nous servons est préparé avec amour et respect des traditions. Notre tilapia braisé, mariné aux épices locales, incarne l'essence même de la cuisine de Lomé.",
+    "text3": "Ici, chaque repas est une expérience chaleureuse. Notre salle accueillante est conçue pour vous faire sentir comme à la maison, entouré de bonne humeur et d'arômes envoûtants.",
+    "text4": "Venez partager un moment convivial avec nous. Que ce soit pour un déjeuner rapide ou un dîner en famille, nous serons ravis de vous accueillir et de vous faire découvrir notre passion."
+  },
+  "plat-signature": {
+    "title": "Notre Plat Signature",
+    "step1": {
+      "title": "Le Tilapia",
+      "text": "Fraîchement pêché, notre tilapia est sélectionné avec soin pour sa chair tendre et son goût délicat. Chaque poisson est préparé le jour même pour garantir une fraîcheur optimale."
+    },
+    "step2": {
+      "title": "La Braise",
+      "text": "Braisé lentement sur des charbons ardents, le tilapia acquiert une texture croquante à l'extérieur tout en restant juteux à l'intérieur. Notre secret : un temps de cuisson maîtrisé à la perfection."
+    },
+    "step3": {
+      "title": "Les Accompagnements",
+      "text": "Pour compléter l'expérience, nous proposons une sélection d'accompagnements traditionnels : alloco croustillant, riz sauce onctueux, ou attieké frais. Chaque choix sublimera votre tilapia."
+    }
+  },
+  "menu": {
+    "title": "Notre Menu",
+    "categories": "Catégories",
+    "addToCart": "Ajouter au panier",
+    "priceTodo": "Prix provisoire"
+  },
+  "gallery": {
+    "title": "Notre Ambiance",
+    "close": "Fermer",
+    "prev": "Image précédente",
+    "next": "Image suivante"
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "photoComing": "Photo à venir",
+    "namePlaceholder": "À définir",
+    "rolePlaceholder": "Rôle à définir",
+    "bioPlaceholder": "Bio à définir"
+  },
+  "reservation": {
+    "title": "Réservation",
+    "nameLabel": "Votre nom",
+    "phoneLabel": "Votre téléphone",
+    "dateLabel": "Date",
+    "timeLabel": "Heure",
+    "guestsLabel": "Nombre de personnes",
+    "messageLabel": "Message (optionnel)",
+    "submit": "Réserver sur WhatsApp",
+    "successTitle": "Réservation envoyée !",
+    "successMessage": "Votre demande de réservation a été envoyée sur WhatsApp. Nous vous confirmerons rapidement."
+  },
+  "infos": {
+    "title": "Infos Pratiques"
+  },
+  "contact": {
+    "address": "Adresse",
+    "hours": "Horaires",
+    "whatsapp": "WhatsApp",
+    "phone": "Téléphone",
+    "addressValue": "Quartier Jean-Paul II / Agoè 2 Lions (carrefour Plateaux), Lomé",
+    "phoneValue": "228 90 00 39 21",
+    "hoursComing": "Horaires à venir"
+  },
+  "infos": {
+    "title": "Infos Pratiques",
+    "delivery": "Livraison",
+    "deliveryCoverage": "Livraison dans tout Lomé",
+    "freeDelivery": "Livraison gratuite à partir de",
+    "deliveryFrom": "Livraison à partir de",
+    "getDirections": "Itinéraire",
+    "openNow": "Ouvert maintenant",
+    "closedNow": "Fermé maintenant"
+  },
+  "footer": {
+    "tagline": "Poisson Braisé - Saveurs du Togo",
+    "navAria": "Navigation footer",
+    "whatsappAria": "Contactez-nous sur WhatsApp",
+    "copyright": "© 2024 Eza Zozo - Poisson Braisé. Tous droits réservés.",
+    "social": "Suivez-nous",
+    "createdBy": "Site créé par"
+  },
+  "cart": {
+    "title": "Mon Panier",
+    "empty": "Votre panier est vide",
+    "total": "Total",
+    "checkout": "Commander sur WhatsApp"
+  },
+  "checkout": {
+    "title": "Finaliser la commande",
+    "nameLabel": "Votre nom",
+    "quarterLabel": "Quartier de livraison",
+    "detailsLabel": "Précisions (optionnel)",
+    "submit": "Commander sur WhatsApp"
+  }
+}

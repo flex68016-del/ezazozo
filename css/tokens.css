@@ -1,0 +1,273 @@
+/* ============================================
+   DESIGN SYSTEM - EZA ZOZO
+   Street Food Audacieuse & Énergique
+   Noir, Jaune, Blanc, Orange
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@8..96,400;8..96,500;8..96,600;8..96,700;8..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+/* ============================================
+   COULEURS - Palette Street Food
+   ============================================ */
+
+:root {
+  /* Couleurs primaires - Noir & Blanc */
+  --color-noir: #0B0B0B;
+  --color-noir-surface: #161616;
+  --color-noir-light: #1F1F1F;
+
+  --color-blanc: #FFFFFF;
+  --color-blanc-casse: #F7F5F0;
+  --color-blanc-gray: #E8E6E1;
+
+  /* Couleurs accent - Jaune & Orange */
+  --color-jaune: #FFC727;
+  --color-jaune-light: #FFD65C;
+  --color-jaune-dark: #E5B015;
+
+  --color-orange: #FF6A13;
+  --color-orange-light: #FF8A4C;
+  --color-orange-dark: #E55A00;
+
+  /* Dégradé flamme */
+  --gradient-flamme: linear-gradient(135deg, var(--color-jaune) 0%, var(--color-orange) 100%);
+  --gradient-flamme-reverse: linear-gradient(135deg, var(--color-orange) 0%, var(--color-jaune) 100%);
+
+  /* Couleurs fonctionnelles */
+  --color-success: #2D6A4F;
+  --color-warning: var(--color-jaune);
+  --color-error: var(--color-orange);
+  --color-info: #1D3557;
+
+  /* Opacités */
+  --color-noir-50: rgba(11, 11, 11, 0.5);
+  --color-noir-80: rgba(11, 11, 11, 0.8);
+  --color-noir-90: rgba(11, 11, 11, 0.9);
+  --color-jaune-10: rgba(255, 199, 39, 0.1);
+  --color-jaune-20: rgba(255, 199, 39, 0.2);
+  --color-orange-10: rgba(255, 106, 19, 0.1);
+  --color-orange-20: rgba(255, 106, 19, 0.2);
+  --color-blanc-50: rgba(255, 255, 255, 0.5);
+  --color-blanc-80: rgba(255, 255, 255, 0.8);
+  --color-blanc-90: rgba(255, 255, 255, 0.9);
+}
+
+/* ============================================
+   TYPOGRAPHIE - Polices & Échelle
+   ============================================ */
+
+:root {
+  /* Familles de polices */
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Sans', monospace;
+
+  /* Échelle typographique - clamp() fluide */
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+  --text-base: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.625vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.25rem + 1.25vw, 2rem);
+  --text-3xl: clamp(1.875rem, 1.5rem + 1.875vw, 2.5rem);
+  --text-4xl: clamp(2.25rem, 1.75rem + 2.5vw, 3.5rem);
+  --text-5xl: clamp(3rem, 2rem + 5vw, 5rem);
+  --text-6xl: clamp(3.75rem, 2.5rem + 6.25vw, 6.5rem);
+
+  /* Line heights */
+  --leading-tight: 1.1;
+  --leading-snug: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.75;
+  --leading-loose: 2;
+
+  /* Font weights */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+
+  /* Letter spacing */
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+}
+
+/* ============================================
+   ESPACEMENT - Échelle de grille
+   ============================================ */
+
+:root {
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+  --space-40: 10rem;
+  --space-48: 12rem;
+  --space-56: 14rem;
+  --space-64: 16rem;
+}
+
+/* ============================================
+   BORDURES & RAYONS
+   ============================================ */
+
+:root {
+  --border-none: 0;
+  --border-sm: 1px;
+  --border-base: 2px;
+  --border-lg: 3px;
+  --border-xl: 4px;
+
+  --radius-none: 0;
+  --radius-sm: 0.25rem;
+  --radius-base: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+  --radius-full: 9999px;
+}
+
+/* ============================================
+   OMBRES - Profondeur & Texture
+   ============================================ */
+
+:root {
+  --shadow-sm: 0 1px 2px 0 rgba(11, 11, 11, 0.05);
+  --shadow-base: 0 1px 3px 0 rgba(11, 11, 11, 0.1), 0 1px 2px -1px rgba(11, 11, 11, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(11, 11, 11, 0.1), 0 2px 4px -2px rgba(11, 11, 11, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(11, 11, 11, 0.1), 0 4px 6px -4px rgba(11, 11, 11, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(11, 11, 11, 0.1), 0 8px 10px -6px rgba(11, 11, 11, 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgba(11, 11, 11, 0.25);
+
+  /* Ombres colorées - Énergie */
+  --shadow-jaune: 0 10px 30px -10px rgba(255, 199, 39, 0.4);
+  --shadow-orange: 0 10px 30px -10px rgba(255, 106, 19, 0.4);
+
+  /* Ombres internes */
+  --shadow-inner: inset 0 2px 4px 0 rgba(11, 11, 11, 0.06);
+}
+
+/* ============================================
+   TRANSITIONS & ANIMATIONS
+   ============================================ */
+
+:root {
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 500ms;
+  --duration-slower: 700ms;
+  --duration-slowest: 1000ms;
+
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-elastic: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ============================================
+   LAYOUT - Conteneurs & Grilles
+   ============================================ */
+
+:root {
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1536px;
+
+  --grid-cols-1: repeat(1, minmax(0, 1fr));
+  --grid-cols-2: repeat(2, minmax(0, 1fr));
+  --grid-cols-3: repeat(3, minmax(0, 1fr));
+  --grid-cols-4: repeat(4, minmax(0, 1fr));
+  --grid-cols-6: repeat(6, minmax(0, 1fr));
+  --grid-cols-12: repeat(12, minmax(0, 1fr));
+
+  --gap-0: 0;
+  --gap-1: 0.25rem;
+  --gap-2: 0.5rem;
+  --gap-3: 0.75rem;
+  --gap-4: 1rem;
+  --gap-5: 1.25rem;
+  --gap-6: 1.5rem;
+  --gap-8: 2rem;
+  --gap-10: 2.5rem;
+  --gap-12: 3rem;
+  --gap-16: 4rem;
+}
+
+/* ============================================
+   Z-INDEX - Couches
+   ============================================ */
+
+:root {
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}
+
+/* ============================================
+   SEMANTIC TOKENS - Couleurs d'usage
+   ============================================ */
+
+:root {
+  /* Backgrounds */
+  --bg-primary: var(--color-blanc-casse);
+  --bg-secondary: var(--color-blanc);
+  --bg-accent: var(--color-jaune);
+  --bg-dark: var(--color-noir);
+  --bg-surface: var(--color-noir-surface);
+  --bg-dark-surface: var(--color-noir-light);
+
+  /* Text */
+  --text-primary: var(--color-noir);
+  --text-secondary: var(--color-noir-light);
+  --text-accent: var(--color-jaune);
+  --text-accent-cta: var(--color-orange);
+  --text-inverse: var(--color-blanc);
+  --text-muted: var(--color-noir-light);
+  --text-on-dark: var(--color-blanc);
+  --text-on-dark-accent: var(--color-jaune);
+  --text-on-dark-cta: var(--color-orange);
+
+  /* Borders */
+  --border-primary: var(--color-noir);
+  --border-secondary: var(--color-blanc-gray);
+  --border-accent: var(--color-jaune);
+  --border-cta: var(--color-orange);
+  --border-on-dark: var(--color-blanc);
+}
+
+/* ============================================
+   BREAKPOINTS - Responsive
+   ============================================ */
+
+:root {
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}

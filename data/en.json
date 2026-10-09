@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "title": "Eza Zozo - Grilled Fish"
+  },
+  "skipLink": "Skip to main content",
+  "header": {
+    "logoAria": "Eza Zozo - Back to home",
+    "logoSvgAria": "Eza Zozo",
+    "navAria": "Main navigation",
+    "langSwitchAria": "Language choice",
+    "frAria": "French",
+    "enAria": "English",
+    "cartAria": "Cart",
+    "mobileMenuAria": "Mobile menu"
+  },
+  "nav": {
+    "home": "Home",
+    "story": "Our Story",
+    "signature": "Signature Dish",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "team": "Team",
+    "reservation": "Reservation",
+    "infos": "Practical Info"
+  },
+  "hero": {
+    "title": "Grilled Fish",
+    "subtitle": "Flavors of Togo",
+    "viewMenu": "View Menu",
+    "orderWhatsapp": "Order on WhatsApp"
+  },
+  "histoire": {
+    "title": "Our Story",
+    "text1": "Born from a passion for authentic Togolese cuisine, Eza Zozo is more than just a restaurant. It's an invitation to discover the flavors of our terroir, passed down from generation to generation.",
+    "text2": "Every dish we serve is prepared with love and respect for tradition. Our grilled tilapia, marinated with local spices, embodies the very essence of Lomé's cuisine.",
+    "text3": "Here, every meal is a warm experience. Our welcoming space is designed to make you feel at home, surrounded by good cheer and enticing aromas.",
+    "text4": "Come share a convivial moment with us. Whether for a quick lunch or a family dinner, we'll be delighted to welcome you and share our passion with you."
+  },
+  "plat-signature": {
+    "title": "Our Signature Dish",
+    "step1": {
+      "title": "The Tilapia",
+      "text": "Freshly caught, our tilapia is carefully selected for its tender flesh and delicate taste. Each fish is prepared the same day to ensure optimal freshness."
+    },
+    "step2": {
+      "title": "The Ember",
+      "text": "Slowly grilled over hot coals, the tilapia acquires a crispy texture on the outside while remaining juicy inside. Our secret: perfectly mastered cooking time."
+    },
+    "step3": {
+      "title": "The Sides",
+      "text": "To complete the experience, we offer a selection of traditional sides: crispy alloco, creamy rice sauce, or fresh attieké. Each choice will elevate your tilapia."
+    }
+  },
+  "menu": {
+    "title": "Our Menu",
+    "categories": "Categories",
+    "addToCart": "Add to Cart",
+    "priceTodo": "Provisional price"
+  },
+  "gallery": {
+    "title": "Our Atmosphere",
+    "close": "Close",
+    "prev": "Previous image",
+    "next": "Next image"
+  },
+  "team": {
+    "title": "Our Team",
+    "photoComing": "Photo coming soon",
+    "namePlaceholder": "To be defined",
+    "rolePlaceholder": "Role to be defined",
+    "bioPlaceholder": "Bio to be defined"
+  },
+  "reservation": {
+    "title": "Reservation",
+    "nameLabel": "Your name",
+    "phoneLabel": "Your phone",
+    "dateLabel": "Date",
+    "timeLabel": "Time",
+    "guestsLabel": "Number of guests",
+    "messageLabel": "Message (optional)",
+    "submit": "Reserve on WhatsApp",
+    "successTitle": "Reservation sent!",
+    "successMessage": "Your reservation request has been sent on WhatsApp. We will confirm shortly."
+  },
+  "infos": {
+    "title": "Practical Info"
+  },
+  "contact": {
+    "address": "Address",
+    "hours": "Hours",
+    "whatsapp": "WhatsApp",
+    "phone": "Phone",
+    "addressValue": "Quartier Jean-Paul II / Agoè 2 Lions (carrefour Plateaux), Lomé",
+    "phoneValue": "228 90 00 39 21",
+    "hoursComing": "Hours coming soon"
+  },
+  "infos": {
+    "title": "Practical Info",
+    "delivery": "Delivery",
+    "deliveryCoverage": "Delivery throughout Lomé",
+    "freeDelivery": "Free delivery from",
+    "deliveryFrom": "Delivery from",
+    "getDirections": "Get directions",
+    "openNow": "Open now",
+    "closedNow": "Closed now"
+  },
+  "footer": {
+    "tagline": "Grilled Fish - Flavors of Togo",
+    "navAria": "Footer navigation",
+    "whatsappAria": "Contact us on WhatsApp",
+    "copyright": "© 2024 Eza Zozo - Grilled Fish. All rights reserved.",
+    "social": "Follow us",
+    "createdBy": "Site created by"
+  },
+  "cart": {
+    "title": "My Cart",
+    "empty": "Your cart is empty",
+    "total": "Total",
+    "checkout": "Order on WhatsApp"
+  },
+  "checkout": {
+    "title": "Complete Order",
+    "nameLabel": "Your name",
+    "quarterLabel": "Delivery area",
+    "detailsLabel": "Details (optional)",
+    "submit": "Order on WhatsApp"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "members": [
+    {
+      "id": "member-1",
+      "name": "À définir",
+      "role": "Rôle à définir",
+      "image": null,
+      "bio": "Bio à définir"
+    },
+    {
+      "id": "member-2",
+      "name": "À définir",
+      "role": "Rôle à définir",
+      "image": null,
+      "bio": "Bio à définir"
+    },
+    {
+      "id": "member-3",
+      "name": "À définir",
+      "role": "Rôle à définir",
+      "image": null,
+      "bio": "Bio à définir"
+    }
+  ]
+}

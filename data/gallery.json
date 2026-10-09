@@ -1,0 +1,76 @@
+{
+  "images": [
+    {
+      "id": "salle-1",
+      "src": "salle-1.jpg",
+      "alt": "Vue de la salle du restaurant",
+      "caption": "Notre salle chaleureuse",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "salle-2",
+      "src": "salle-2.jpg",
+      "alt": "Vue de la salle du restaurant",
+      "caption": "Ambiance conviviale",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "salle-3",
+      "src": "salle-3.jpg",
+      "alt": "Vue de la salle du restaurant",
+      "caption": "Espace accueillant",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "tilapia-2",
+      "src": "tilapia-2.jpg",
+      "alt": "Tilapia braisé",
+      "caption": "Saveurs authentiques",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "alloco",
+      "src": "alloco.jpg",
+      "alt": "Alloco",
+      "caption": "Alloco croustillant",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "riz",
+      "src": "riz.jpg",
+      "alt": "Riz Sauce",
+      "caption": "Riz Sauce onctueux",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "attieke",
+      "src": "attieke.jpg",
+      "alt": "Attieké",
+      "caption": "Attieké frais",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "frittes",
+      "src": "frittes.jpg",
+      "alt": "Frites",
+      "caption": "Frites dorées",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "akpan",
+      "src": "akpan.jpg",
+      "alt": "Akpan",
+      "caption": "Akpan traditionnel",
+      "width": 800,
+      "height": 600
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "categories": [
+    {
+      "id": "poissons",
+      "name": "Poissons Braisés",
+      "items": [
+        {
+          "id": "tilapia-petit",
+          "name": "Tilapia Braisé (Petit)",
+          "description": "Tilapia braisé aux épices du terroir - format petit",
+          "price": 0,
+          "image": "tilapia-petit.jpg"
+        },
+        {
+          "id": "tilapia-moyen",
+          "name": "Tilapia Braisé (Moyen)",
+          "description": "Tilapia braisé aux épices du terroir - format moyen",
+          "price": 0,
+          "image": "tilapia-moyen.jpg"
+        },
+        {
+          "id": "tilapia-grand",
+          "name": "Tilapia Braisé (Grand)",
+          "description": "Tilapia braisé aux épices du terroir - format grand",
+          "price": 0,
+          "image": "tilapia-grand.jpg"
+        },
+        {
+          "id": "tilapia-epices",
+          "name": "Tilapia aux Épices Spéciales",
+          "description": "Tilapia braisé avec notre mélange d'épices secret",
+          "price": 0,
+          "image": "tilapia-épicé.jpg"
+        }
+      ]
+    },
+    {
+      "id": "accompagnements",
+      "name": "Accompagnements",
+      "items": [
+        {
+          "id": "frites",
+          "name": "Frites",
+          "description": "Frites de pommes de terre croustillantes",
+          "price": 1000,
+          "image": "frittes.jpg"
+        },
+        {
+          "id": "attieke",
+          "name": "Attieké",
+          "description": "Semoule de manioc traditionnelle",
+          "price": 500,
+          "image": "attieke.jpg"
+        },
+        {
+          "id": "aloko",
+          "name": "Aloko",
+          "description": "Bananes plantains mûres frites",
+          "price": 1000,
+          "image": "alloco.jpg"
+        },
+        {
+          "id": "akpan",
+          "name": "Akpan",
+          "description": "Pâte de maïs fermentée (souvent offerte)",
+          "price": 0,
+          "image": "akpan.jpg"
+        },
+        {
+          "id": "riz-sauce",
+          "name": "Riz Sauce",
+          "description": "Riz accompagné de notre sauce tomate maison",
+          "price": 1500,
+          "image": "riz.jpg"
+        }
+      ]
+    },
+    {
+      "id": "boissons",
+      "name": "Boissons",
+      "items": [
+        {
+          "id": "jus-bissap",
+          "name": "Jus de Bissap",
+          "description": "Jus de fleur d'hibiscus frais et naturel",
+          "price": 1000,
+          "image": "jus/bissap.jpg"
+        },
+        {
+          "id": "jus-liha",
+          "name": "Jus de Liha",
+          "description": "Jus de baobab frais et naturel",
+          "price": 1000,
+          "image": "jus/baobab.jpg"
+        },
+        {
+          "id": "jus-orange",
+          "name": "Jus d'Orange",
+          "description": "Jus d'orange pressé frais",
+          "price": 1200,
+          "image": "jus/orange.jpg"
+        },
+        {
+          "id": "biere-beninoise",
+          "name": "Bière Béninoise",
+          "description": "Bière locale fraîche",
+          "price": 1500,
+          "image": "jus/biere béninoise.jpg"
+        },
+        {
+          "id": "biere-castel",
+          "name": "Bière Castel",
+          "description": "Bière blonde rafraîchissante",
+          "price": 1500,
+          "image": "jus/biere castel.jpg"
+        },
+        {
+          "id": "vin-rouge",
+          "name": "Vin Rouge",
+          "description": "Vin rouge de table",
+          "price": 3000,
+          "image": "jus/vin rouge.jpg"
+        },
+        {
+          "id": "vin-blanc",
+          "name": "Vin Blanc",
+          "description": "Vin blanc de table",
+          "price": 3000,
+          "image": "jus/vin blanc.jpg"
+        }
+      ]
+    }
+  ]
+}
