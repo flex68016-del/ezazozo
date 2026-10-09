@@ -32,7 +32,6 @@ export async function initI18n() {
   await loadTranslations(currentLang);
   applyTranslations();
   setupLanguageSwitcher();
-  setupMobileMenu();
 }
 
 async function loadTranslations(lang) {
@@ -107,44 +106,6 @@ function setupLanguageSwitcher() {
       const lang = button.getAttribute('data-lang');
       setLanguage(lang);
     });
-  });
-}
-
-function setupMobileMenu() {
-  const menuToggle = document.querySelector('.mobile-menu-toggle');
-  const mainNav = document.querySelector('.main-nav');
-
-  if (!menuToggle || !mainNav) return;
-
-  menuToggle.addEventListener('click', () => {
-    const isOpen = mainNav.classList.toggle('open');
-    menuToggle.setAttribute('aria-expanded', isOpen);
-
-    // Empêcher le scroll quand le menu est ouvert
-    if (isOpen) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-  });
-
-  // Fermer le menu quand on clique sur un lien
-  mainNav.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      mainNav.classList.remove('open');
-      menuToggle.setAttribute('aria-expanded', 'false');
-      document.body.style.overflow = '';
-    });
-  });
-
-  // Fermer le menu avec Escape
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && mainNav.classList.contains('open')) {
-      mainNav.classList.remove('open');
-      menuToggle.setAttribute('aria-expanded', 'false');
-      document.body.style.overflow = '';
-      menuToggle.focus();
-    }
   });
 }
 
